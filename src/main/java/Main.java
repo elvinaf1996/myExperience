@@ -8,7 +8,7 @@ public class Main{
 
     public static void main(String[] args) {
 
-        HashMap<String, String> newHash = getHashMapFirstDepth("appStatus");
+        HashMap<String, String> newHash = getHashMapFirstDepth("Статус");
         System.out.println(newHash.get("Стадия"));
     }
 
